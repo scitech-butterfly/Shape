@@ -22,3 +22,4 @@ class EquilateralPyramid extends Shape {
   return (1.0 / 3.0) * (dim_one * dim_one) * dim_two;
  }
 
+}
