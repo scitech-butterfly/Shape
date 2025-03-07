@@ -1,6 +1,8 @@
 // Rectangle.java
 
 class Rectangle extends Shape {
+
+ // Rectangle Constructor
  public Rectangle(double length, double width) {
   super(length, width, 0, 4); // for super class Shape's parameterized constructor
  }
