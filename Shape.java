@@ -22,10 +22,4 @@ abstract class Shape {
 
  abstract double calculatePerimeter(); // Abstract Method
 
- abstract double calculateVolume(); // Abstract Method
-
- public int getNumSides() {
-  return num_sides;
- }
-
 }
