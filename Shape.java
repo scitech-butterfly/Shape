@@ -18,4 +18,14 @@ abstract class Shape {
   this.num_sides = num_sides;
  }
 
+ abstract double calculateArea(); // Abstract Method
+
+ abstract double calculatePerimeter(); // Abstract Method
+
+ abstract double calculateVolume(); // Abstract Method
+
+ public int getNumSides() {
+  return num_sides;
+ }
+
 }
