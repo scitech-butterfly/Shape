@@ -2,8 +2,16 @@
 
 class Rectangle extends Shape {
  public Rectangle(double length, double width) {
-  super(length, width, 0, 4);
+  super(length, width, 0, 4); // for super class Shape
+ }
+
+ // Method to calculate area
+ public double calculateArea() { 
+  return dim_one * dim_two; // Area = (length * breadth)
+ }
+
+ // Method to calculate perimeter
+ public double calculatePerimeter() {
+  return 2 * (dim_one + dim_two); // Perimeter = 2 * (length + breadth)
  }
 }
-  
-  
